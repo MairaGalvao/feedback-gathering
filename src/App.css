@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.submitText{
+  position: static;
+  width: 43px;
+  height: 21px;
+  left: 12px;
+  top: 5.5px;  
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
 }
 
-.App-link {
-  color: #61dafb;
+.skip {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  
+  color: #522143;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.thumbsBox{
+  margin-top: 16px;
+  margin-bottom: 11px;
+  display: flex;
+  justify-content: center;
 }
+
+.thumbsBtn {
+  display: flex;
+  color: #161616;
+}
+
+.thumbsText{
+  font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
+
+.buttonsBox{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+
+}
+
+
+.title {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Titillium Web';
+  color: #161616;
+
+  font-size: 16px;
+  font-weight: 600;
+}
+
